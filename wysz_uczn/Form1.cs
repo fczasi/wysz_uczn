@@ -44,6 +44,7 @@ namespace wysz_uczn
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            pictureBox1.Image = wysz_uczn.Properties.Resources._1;
 
         }
     }

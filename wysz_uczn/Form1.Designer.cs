@@ -131,6 +131,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::wysz_uczn.Properties.Resources._7;
             this.pictureBox1.Location = new System.Drawing.Point(149, 207);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(100, 31);
