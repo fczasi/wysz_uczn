@@ -44,7 +44,17 @@ namespace wysz_uczn
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            pictureBox1.Image = wysz_uczn.Properties.Resources._1;
+            Image[] pics =
+                {
+                    wysz_uczn.Properties.Resources._1,
+                    wysz_uczn.Properties.Resources._2,
+                    wysz_uczn.Properties.Resources._3,
+                    wysz_uczn.Properties.Resources._4,
+                    wysz_uczn.Properties.Resources._5,
+                    wysz_uczn.Properties.Resources._6,
+                    wysz_uczn.Properties.Resources._7
+                };
+            Random random = new Random();
 
         }
     }
