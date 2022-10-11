@@ -58,7 +58,7 @@ namespace wysz_uczn
 
             var rand = new Random();
             var los = rand.Next(pics.Length);
-            pictureBox1.Image = pics[los].Item1;
+            pictureBox1.Image = pics[los];
             correctImgWithCode = los;
 
         }
