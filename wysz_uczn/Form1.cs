@@ -46,13 +46,13 @@ namespace wysz_uczn
         {
             Image[] pics =
                 {
-                    wysz_uczn.Properties.Resources._1,
-                    wysz_uczn.Properties.Resources._2,
-                    wysz_uczn.Properties.Resources._3,
-                    wysz_uczn.Properties.Resources._4,
-                    wysz_uczn.Properties.Resources._5,
-                    wysz_uczn.Properties.Resources._6,
-                    wysz_uczn.Properties.Resources._7
+                    wysz_uczn.Properties.Resources._1,//mxyxw
+                    wysz_uczn.Properties.Resources._2,//b5nnm
+                    wysz_uczn.Properties.Resources._3,//74853
+                    wysz_uczn.Properties.Resources._4,//cg5dd
+                    wysz_uczn.Properties.Resources._5,//x3deb
+                    wysz_uczn.Properties.Resources._6,//befhd
+                    wysz_uczn.Properties.Resources._7//c7gb3
                 };
             int correctImgWithCode = 0;
 
