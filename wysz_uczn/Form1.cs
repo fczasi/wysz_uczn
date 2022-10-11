@@ -54,7 +54,12 @@ namespace wysz_uczn
                     wysz_uczn.Properties.Resources._6,
                     wysz_uczn.Properties.Resources._7
                 };
-            Random random = new Random();
+            int correctImgWithCode = 0;
+
+            var rand = new Random();
+            var los = rand.Next(pics.Length);
+            pictureBox1.Image = pics[los].Item1;
+            correctImgWithCode = los;
 
         }
     }
